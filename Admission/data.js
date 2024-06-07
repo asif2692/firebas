@@ -12,18 +12,18 @@ dataButton.addEventListener('click', async function () {
 
     let newRow = `
       <tr>
-        <td data-label="First name">${dataGet.Firstname}</td>
-        <td data-label="Last name">${dataGet.Lastname}</td>
-        <td data-label="Father's name">${dataGet.Fathername}</td>
-        <td data-label="Mobile Number">${dataGet.MobileNumber}</td>
-        <td data-label="Cnic">${dataGet.cnic}</td>
-        <td data-label="Age">${dataGet.age}</td>
-        <td data-label="Address">${dataGet.Address}</td>
-        <td data-label="Gender">${dataGet.Gender}</td>
-        <td data-label="Country">${dataGet.country}</td>
-        <td data-label="City">${dataGet.city}</td>
-        <td data-label="Course">${dataGet.courses}</td>
-        <td data-label="Email ID">${dataGet.Email}</td>      
+        <td data-th="First name">${dataGet.Firstname}</td>
+        <td data-th="Last name">${dataGet.Lastname}</td>
+        <td data-th="Father's name">${dataGet.Fathername}</td>
+        <td data-th="Mobile Number">${dataGet.MobileNumber}</td>
+        <td data-th="Cnic">${dataGet.cnic}</td>
+        <td data-th="Age">${dataGet.age}</td>
+        <td data-th="Address">${dataGet.Address}</td>
+        <td data-th="Gender">${dataGet.Gender}</td>
+        <td data-th="Country">${dataGet.country}</td>
+        <td data-th="City">${dataGet.city}</td>
+        <td data-th="Course">${dataGet.courses}</td>
+        <td data-th="Email ID">${dataGet.Email}</td>      
       </tr>`;
 
     tableBody.innerHTML += newRow;
